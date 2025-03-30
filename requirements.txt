@@ -1,0 +1,12 @@
+fastapi==0.115.12
+python-dotenv
+streamlit==1.44.0
+aiosqlite==0.21.0
+uvicorn==0.34.0
+pydub==0.25.1
+llama_index==0.12.26
+llama-index-llms-openai==0.3.29
+openai==1.69.0
+python-docx==1.1.2
+markdown==3.7
+python-multipart
