@@ -109,31 +109,6 @@ streamlit run app_streamlit.py --server.port=8501 --server.address=0.0.0.0
 
 - Access the frontend UI at: `http://localhost:8501`
 
-## Run with Docker
-
-### 1. Build Docker Images
-- If you don't have `docker-compose` use `docker compose` instead
-```bash
-docker-compose build
-```
-
-### 2. Start Docker Containers
-
-```bash
-docker-compose up
-```
-
-- The backend will be available at `http://localhost:8000`.
-- The frontend will be available at `http://localhost:8501`.
-
-### 3. Stop Docker Containers
-
-To stop the running containers, press `Ctrl+C` or run:
-
-```bash
-docker-compose down
-```
-
 ## Architecture
 
 The application follows a client-server architecture:
@@ -153,7 +128,7 @@ The application follows a client-server architecture:
 - **Data Storage**: SQLite
 - **Audio Processing**: Pydub
 - **Speech-to-Text**: OpenAI Whisper API
-- **LLM Integration**: OpenAI GPT-4o-mini
+- **LLM Integration**: Gemini 2.0 Flash
 
 ## Contributing
 
